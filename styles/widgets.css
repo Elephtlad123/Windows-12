@@ -1,0 +1,95 @@
+
+.media-controller{
+    position: absolute;
+
+    width: 25%;
+    aspect-ratio: 2;
+
+    left: 50%;
+    bottom: 7.5%;
+    transform: translate(-50%);
+
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.05);
+    backdrop-filter: blur(25px);
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 3fr 2fr;
+}
+
+.song-image-container{
+    height: 100%;
+    aspect-ratio: 1;
+
+    display: grid;
+}
+
+.song-image-container img{
+    align-self: center;
+
+    margin-left: 10%;
+
+    border-radius: 5px;
+
+    width: 80%;
+    aspect-ratio: 1;
+}
+
+.media-controller .info-container{
+    height: 80%;
+
+    align-self: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.info-container .song-name{
+    display: grid;
+    align-content: center;
+    text-align: left;
+
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 200%;
+
+    color: rgba(255,255,255,0.9);
+}
+
+.info-container .artist-name{
+    display: grid;
+    align-content: center;
+    text-align: left;
+
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 150%;
+
+    height: fit-content;
+
+    color: rgba(255,255,255,0.65);
+}
+
+.clock-container{
+    position: absolute;
+
+    width: 20%;
+    aspect-ratio: 2;
+
+    left: 50%;
+    top: 7.5%;
+    transform: translate(-50%);
+
+    display: grid;
+
+    align-content: center;
+
+    font-family: 'roboto';
+    text-align: center;
+
+    font-size: 800%;
+    font-weight: 600;
+    color: rgba(255,255,255,0.75);
+}

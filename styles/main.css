@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.windows-12-container{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+}
+
+.home-screen{
+    width: 100%;
+    height: 100%;
+}
+
+.home-screen .wallpaper{
+    width: 100%;
+    height: 100%;
+
+    background-color: aquamarine;
+}
+
+.home-screen .wallpaper .wallpaper-img{
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+}

@@ -13,6 +13,8 @@
     border: 1px solid rgba(255,255,255,0.05);
     backdrop-filter: blur(25px);
 
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 3fr 2fr;
@@ -32,6 +34,8 @@
 
     border-radius: 5px;
 
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+
     width: 80%;
     aspect-ratio: 1;
 }
@@ -44,6 +48,8 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+
+    margin-right: 5%;
 }
 
 .info-container .song-name{
@@ -56,6 +62,7 @@
     font-size: 200%;
 
     color: rgba(255,255,255,0.9);
+    text-shadow: 0px 0px 10px rgba(0,0,0,.5);
 }
 
 .info-container .artist-name{
@@ -70,6 +77,76 @@
     height: fit-content;
 
     color: rgba(255,255,255,0.65);
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.info-container .timer-container{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+.progress{
+    height: 75%;
+    align-self: center;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+    font-family: 'roboto';
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.bar-container{
+    height: 15%;
+    align-self: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 500px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+}
+
+.bar-container .bar-inner{
+    width: 36%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 500px 0 0 500px;
+}
+
+.total{
+    height: 75%;
+    align-self: center;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+    font-family: 'roboto';
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.media-controls-container{
+    width: 200%;
+    height: 85%;
+    margin-left: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.media-controls-container .control{
+    height: 100%;
+    aspect-ratio: 1;
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 500px;
+    display: grid;
+    align-content: center;
+    font-size: 200%;
+    font-weight: 900;
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+    font-family: 'roboto';
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 .clock-container{
@@ -88,6 +165,8 @@
 
     font-family: 'roboto';
     text-align: center;
+
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 
     font-size: 800%;
     font-weight: 600;
